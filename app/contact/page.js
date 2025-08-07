@@ -37,11 +37,6 @@ export default function ContactPage() {
           rel="noopener noreferrer"
           className="inline-block"
         >
-          <img
-            src="/MS Services Logo.png"
-            alt="MS Services Logo – Click to contact Energy Lady NJ"
-            className="auto"
-          />
         </a>
       </div>
     </section>
