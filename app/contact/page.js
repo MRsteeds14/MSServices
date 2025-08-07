@@ -30,7 +30,7 @@ export default function ContactPage() {
       </div>
 
       {/* Separate wrapper for the logo, centered */}
-      <div className="section-title text-center">
+      <div className="section-title image-center">
         <a
           href="mailto:stiefelmiriamr@gmail.com"
           target="_blank"
