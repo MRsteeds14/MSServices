@@ -40,7 +40,7 @@ export default function ContactPage() {
           <img
             src="/MS Services Logo.png"
             alt="MS Services Logo – Click to contact Energy Lady NJ"
-            className="w-48 h-auto mx-auto block"
+            className="auto-adaptive max-w-full h-auto mx-auto"
           />
         </a>
       </div>
