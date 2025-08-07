@@ -10,7 +10,7 @@ export default function ServicesPage() {
       <p className="section-description">
       MS Services & Installation, we are committed to helping businesses and households access clean, 
       affordable energy  through various programs, including natural gas and electricity procurement, 
-      demand response,utility bill auditing, on-site solar panel installations as well as community solar.
+      demand response, utility bill auditing, on-site solar panel installations as well as community solar.
       </p>
 
       <div className="services-grid">
