@@ -9,7 +9,7 @@ export default function AboutPage() {
       <h1 className="section-title">About Us</h1>
       <div className="section-description space-y-6">
         <p>
-          At MS Services Installation, our mission is to empower individuals and communities to access the benefits of clean energy through inclusive and innovative technology. Miriam Stiefel, co-owner of MS Services and Installation, LLC, has over 20 years of energy industry experience helping businesses and residential customers save money on their energy costs throughout the USA. To date, our Affinity Program has generated over $2 Million to participating nonprofit organizations.
+          At MS Services & Installation, our mission is to empower individuals and communities to access the benefits of clean energy through inclusive and innovative technology. Miriam Stiefel, co-owner of MS Services and Installation, LLC, has over 20 years of energy industry experience helping businesses and residential customers save money on their energy costs throughout the USA. To date, our Affinity Program has generated over $2 Million to participating nonprofit organizations.
         </p>
         <p>
           Miriam works directly with the <strong>New Jersey Community Solar Program</strong>, helping residents—whether they rent or own—gain access to solar energy without the need to install any panels or change their existing utility provider. With energy prices rising rapidly, this initiative allows customers to secure a <strong>20–25% monthly discount</strong> on their electric bills simply by enrolling their address.
