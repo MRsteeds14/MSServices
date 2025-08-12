@@ -36,7 +36,7 @@ export default function ContactPage() {
           <img
             src="/MS Services Logo.png"
             alt="MS Services Logo – Click to contact Energy Lady NJ"
-            className=".logo-image mx-auto"
+            className="hero-logo mx-auto cursor-pointer object-contain transition-transform hover:scale-105"
           />
         </a>
       </div>
