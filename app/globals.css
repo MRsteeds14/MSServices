@@ -106,7 +106,7 @@ html, body {
 img {
   max-width: 100%;
   height: auto;
-  display: block;
+  display: centered;
 }
 
 /* Responsive logo sizing: 96px–160px with fluid steps in between */
