@@ -103,6 +103,17 @@ html, body {
   color: #ffffff;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Responsive logo sizing: 96px–160px with fluid steps in between */
+.hero-logo {
+  width: flex(96px, 28vw, 720=0px);
+  height: auto;
+}
 .hero {
   position: relative;
   display: flex;
