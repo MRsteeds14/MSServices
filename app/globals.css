@@ -22,8 +22,8 @@ html, body {
 
 /* Utility container to constrain page width and center content */
 .container {
-  width: 90%;
-  max-width: 1200px;
+  width: 100%;
+  max-width: 800px;
   margin-left: auto;
   margin-right: auto;
   display: flex;
