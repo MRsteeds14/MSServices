@@ -51,7 +51,7 @@ export default function ServicesPage() {
         <div className="service-card">
           <h3>Advisor Training & Support</h3>
           <p>
-            Interested in becoming a community solar advisor? We offer onboarding, training materials, 
+            Interested in becoming a Energy advisor? We offer onboarding, training materials, 
             and tools to help you grow your impact in your neighborhood.
           </p>
         </div>
