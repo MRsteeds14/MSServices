@@ -22,36 +22,65 @@ export default function AboutPage() {
         </p>
       </div>
 
-      {/* Featured Blog Post with Clickable Animated Thumbnail */}
-<div className="section-title text-center">
-  <div className="bg-gray-100 border border-gray-300 rounded-xl p-6 shadow-sm max-w-xl w-full text-center">
-    <h2 className="text-xl font-semibold mb-4">Featured Blog Post</h2>
-    <a
-      href="https://www.homeownering.com/blog/2024/07/29/when-buying-a-home-with-solar-be-aware-of-these-5-things/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block transform transition-transform duration-300 hover:scale-105"
-    >
-      <img
-        src="/solar-home-thumbnail.png"
-        alt="Buying a Home with Solar Tips"
-        className="mx-auto w-full md:w-72 rounded-lg shadow-lg object-cover"
-      />
-    </a>
-    <p className="mt-4">
-      Thinking about buying a home with solar? Learn what to watch out for before making the leap—
-      including ownership transfer issues, solar loans, and long-term maintenance.
-    </p>
-    <a
-      href="https://www.homeownering.com/blog/2024/07/29/when-buying-a-home-with-solar-be-aware-of-these-5-things/"
-      target="_blank"
-      rel="noopener noreferrer"
-      className="inline-block mt-2 text-blue-700 font-medium hover:underline"
-    >
-      Read the full article →
-    </a>
-  </div>
-</div>
+      {/* Featured Blog Posts with Clickable Animated Thumbnails */}
+      <div className="section-title text-center space-y-6">
+        {/* First Featured Article */}
+        <div className="bg-gray-100 border border-gray-300 rounded-xl p-6 shadow-sm max-w-xl w-full text-center mx-auto">
+          <h2 className="text-xl font-semibold mb-4">Featured Article</h2>
+          <a
+            href="https://jewishlink.news/how-ms-services-and-installation-llc-can-lower-your-energy-costs/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block transform transition-transform duration-300 hover:scale-105"
+          >
+            <img
+              src="/Solar panel.jpg"
+              alt="How MS Services and Installation LLC Can Lower Your Energy Costs"
+              className="mx-auto w-full md:w-72 rounded-lg shadow-lg object-cover"
+            />
+          </a>
+          <p className="mt-4">
+            Discover how MS Services and Installation LLC helps businesses and homeowners reduce energy costs through community solar programs and innovative clean energy solutions.
+          </p>
+          <a
+            href="https://jewishlink.news/how-ms-services-and-installation-llc-can-lower-your-energy-costs/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-blue-700 font-medium hover:underline"
+          >
+            Read the full article →
+          </a>
+        </div>
+
+        {/* Second Featured Article */}
+        <div className="bg-gray-100 border border-gray-300 rounded-xl p-6 shadow-sm max-w-xl w-full text-center mx-auto">
+          <h2 className="text-xl font-semibold mb-4">Featured Blog Post</h2>
+          <a
+            href="https://www.homeownering.com/blog/2024/07/29/when-buying-a-home-with-solar-be-aware-of-these-5-things/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block transform transition-transform duration-300 hover:scale-105"
+          >
+            <img
+              src="/solar-home-thumbnail.png"
+              alt="Buying a Home with Solar Tips"
+              className="mx-auto w-full md:w-72 rounded-lg shadow-lg object-cover"
+            />
+          </a>
+          <p className="mt-4">
+            Thinking about buying a home with solar? Learn what to watch out for before making the leap—
+            including ownership transfer issues, solar loans, and long-term maintenance.
+          </p>
+          <a
+            href="https://www.homeownering.com/blog/2024/07/29/when-buying-a-home-with-solar-be-aware-of-these-5-things/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block mt-2 text-blue-700 font-medium hover:underline"
+          >
+            Read the full article →
+          </a>
+        </div>
+      </div>
 
     </section>
   );
